@@ -8,6 +8,7 @@
 
 body {
     font-family: "Inter", serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -517,3 +518,122 @@ h2 {
     font-weight: 400;
     line-height: 150%;
 }
+
+
+/* AGB PAGE */
+
+.agb{
+    padding-bottom: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.agb .container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.agb h2{
+    text-align: left;
+}
+
+.agb p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.agb p:last-child{
+    margin-bottom: 0;
+}
+
+/* AGB PAGE END */
+
+
+/* DATENSCHUTZ PAGE */
+
+.datenschutz{
+    padding-bottom: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.datenschutz .container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.datenschutz h2{
+    text-align: left;
+}
+
+.datenschutz p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.datenschutz p:last-child{
+    margin-bottom: 0;
+}
+
+/* DATENSCHUTZ PAGE */
+
+
+/* IMPRESSUM PAGE */
+
+.impressum{
+    padding-bottom: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.impressum .container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.impressum h2{
+    text-align: left;
+}
+
+.impressum p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.impressum p:last-child{
+    margin-bottom: 0;
+}
+
+/* IMPRESSUM PAGE */
+
+/* HAFTUNGSAUSSCHLUSS PAGE */
+
+.haftungsausschluss{
+    padding-bottom: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.haftungsausschluss .container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.haftungsausschluss h2{
+    text-align: left;
+}
+
+.haftungsausschluss p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.haftungsausschluss p:last-child{
+    margin-bottom: 0;
+}
+
+/* HAFTUNGSAUSSCHLUSS PAGE */
