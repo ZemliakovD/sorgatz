@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bestätigen Sie Ihre Auswahl | Lorem ipsum dolor sit amet consectetur</title>
+    <link rel="icon" href="img/icons/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="header-inner">
+            <nav class="navbar">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" class="head-logo">
+                  <img src="img/logo.svg" alt="Logo">
+                </a>
+                <div class="header-panel">
+                  <ul>
+                    <li><a href="#">Unternehmen</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="https://sorgatz-next.vercel.app/" target="_blank">Immobilien</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                  </ul>
+                  <a href="auswahl.html" class="flat-counter">
+                    <span class="flat-counter_item">0</span>
+                    <img src="img/icons/home.svg" alt="flats">
+                  </a>
+                  <div class="login-panel">
+                    <a href="login.html"><img src="img/icons/profile.svg" alt="login"></a>
+                  </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                    <ul>
+                      <li><a href="#">Startseite</a></li>
+                      <li><a href="#">Unternehmen</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="https://sorgatz-next.vercel.app/" target="_blank">Immobilien</a></li>
+                      <li><a href="#">Kontakt</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#">Profile</a></li>
+                      <li><a href="#">Ausloggen</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <main class="main">
+        <section class="auswahl">
+            <div class="container-fluid">
+                <div class="auswahl-inner">
+                    <h2>Bestätigen Sie Ihre Auswahl</h2>
+                    <div class="auswahl-panel">
+                        <p>Wenn Sie auf die Schaltfläche „Interesse bestätigen“ klicken, wird Ihre Anfrage bei der Auswahl eines Bewerbers für die Wohnung berücksichtigt.</p>
+                        <div class="auswahl-panel_buttons">
+                            <button class="delete"><img src="img/icons/delete.svg"></button>
+                            <button class="auswahl-send">Bewerbung versenden</button>
+                        </div>
+                    </div>
+                    <div class="auswahl-order">
+                        <form>
+                            <h3>Ihre Nachricht zur Bewerbung</h3>
+                            <textarea placeholder="Schreiben Sie kurz über sich selbst" rows="5"></textarea>
+                            <div class="flats-items">
+                                <div class="choosing-flat">
+                                    <div class="left-flat">
+                                        <input class="form-check-input" type="checkbox" id="flatCheck">
+                                        <img src="img/flats/flat_mini.png">
+                                        <div class="left-flat-info">
+                                            <h4>Superior, CO Muster Muster</h4>
+                                            <p>Muster-Maxfeld-Straße 28b </p>
+                                        </div>
+                                    </div>
+                                    <div class="right-flat">
+                                        <p>55,3m<sup>2</sup></p>
+                                        <p><span>2</span> Zimmer</p>
+                                        <div class="right-flat_town">
+                                            <img src="img/icons/town.svg">
+                                            <p>Wohnung</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choosing-flat">
+                                    <div class="left-flat">
+                                        <input class="form-check-input" type="checkbox" id="flatCheck">
+                                        <img src="img/flats/flat_mini.png">
+                                        <div class="left-flat-info">
+                                            <h4>Superior, CO Muster Muster</h4>
+                                            <p>Muster-Maxfeld-Straße 28b </p>
+                                        </div>
+                                    </div>
+                                    <div class="right-flat">
+                                        <p>55,3m<sup>2</sup></p>
+                                        <p><span>2</span> Zimmer</p>
+                                        <div class="right-flat_town">
+                                            <img src="img/icons/town.svg">
+                                            <p>Wohnung</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choosing-flat">
+                                    <div class="left-flat">
+                                        <input class="form-check-input" type="checkbox" id="flatCheck">
+                                        <img src="img/flats/flat_mini.png">
+                                        <div class="left-flat-info">
+                                            <h4>Superior, CO Muster Muster</h4>
+                                            <p>Muster-Maxfeld-Straße 28b </p>
+                                        </div>
+                                    </div>
+                                    <div class="right-flat">
+                                        <p>55,3m<sup>2</sup></p>
+                                        <p><span>2</span> Zimmer</p>
+                                        <div class="right-flat_town">
+                                            <img src="img/icons/town.svg">
+                                            <p>Wohnung</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choosing-flat">
+                                    <div class="left-flat">
+                                        <input class="form-check-input" type="checkbox" id="flatCheck">
+                                        <img src="img/flats/flat_mini.png">
+                                        <div class="left-flat-info">
+                                            <h4>Superior, CO Muster Muster</h4>
+                                            <p>Muster-Maxfeld-Straße 28b </p>
+                                        </div>
+                                    </div>
+                                    <div class="right-flat">
+                                        <p>55,3m<sup>2</sup></p>
+                                        <p><span>2</span> Zimmer</p>
+                                        <div class="right-flat_town">
+                                            <img src="img/icons/town.svg">
+                                            <p>Wohnung</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choosing-flat">
+                                    <div class="left-flat">
+                                        <input class="form-check-input" type="checkbox" id="flatCheck">
+                                        <img src="img/flats/flat_mini.png">
+                                        <div class="left-flat-info">
+                                            <h4>Superior, CO Muster Muster</h4>
+                                            <p>Muster-Maxfeld-Straße 28b </p>
+                                        </div>
+                                    </div>
+                                    <div class="right-flat">
+                                        <p>55,3m<sup>2</sup></p>
+                                        <p><span>2</span> Zimmer</p>
+                                        <div class="right-flat_town">
+                                            <img src="img/icons/town.svg">
+                                            <p>Wohnung</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flats-none">
+                                <img src="img/icons/flat-none.png">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-inner">
+              <div class="footer-item">
+                <a href="index.html" class="footer-logo">
+                  <img src="img/footer_logo.svg">
+                </a>
+              </div>
+              <div class="footer-item">
+                <p>Sorgatz Immobiliengesellschaft mbH</p>
+                <p><a href="https://www.google.com/maps/place/Hirsauer+Str.+147,+75180+Pforzheim,+Deutschland/@48.8739064,8.6746424,17z/data=!4m6!3m5!1s0x47976df4e07fa589:0xfea77d4daa52ced0!8m2!3d48.8739029!4d8.6772173!16s%2Fg%2F11b8zhwr9q?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"></a>Hirsauer Strasse 147, 75180 Pforzheim</p>
+                <p>Tel. <a href="tel:+49 7231 46 26 740">+49 7231 46 26 740</a></p>
+                <p>Fax <a href="tel:+49 7231 46 29 997">+49 7231 46 29 997</a></p>
+                <p>E-Mail <a href="mailto:mail@domain.de">mail@domain.de</a></p>
+              </div>
+              <div class="footer-item">
+                <div class="footer-item_unternehmen">
+                  <h4>Unternehmen</h4>
+                  <ul>
+                    <li><a href="#">Über uns</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Immobilienangebote</a></li>
+                  </ul>
+                </div>
+                <div class="footer-item_rechtliches">
+                  <h4>Rechtliches</h4>
+                  <ul>
+                    <li><a href="agb.html">AGB</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright-inner">
+                        <p>© Sorgatz Immobiliengesellschaft mbH 2025 | Konzept & Design: <a href="https://olchin.de/"
+                                rel="nofollow">www.olchin.de</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
