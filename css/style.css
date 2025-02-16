@@ -1413,6 +1413,7 @@ h2 {
 }
 
 .flats-none{
+    display: none;
     padding-top: 96px;
     padding-bottom: 152px;
     max-width: 235px;
