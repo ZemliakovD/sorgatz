@@ -9,7 +9,7 @@
 body {
     font-family: "Inter", serif;
     overflow-x: hidden;
-    background-color: #F6F7FA;
+    background-color: #D9D9D9;
 }
 
 a {
@@ -27,6 +27,11 @@ a:hover {
 ul,
 ol {
     list-style-type: none;
+}
+
+.container-fluid{
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .header {
@@ -118,6 +123,10 @@ ol {
     border-bottom-left-radius: 60px;
 }
 
+.first-banner img{
+    border-bottom-left-radius: 60px;
+}
+
 .first-logo {
     margin: 0 auto;
     text-align: center;
@@ -141,13 +150,14 @@ h2 {
     font-weight: 700;
     margin-bottom: 40px;
     line-height: 150%;
-    background: linear-gradient(120deg, rgba(15, 148, 0, 1) 0%, rgba(21, 171, 169, 1) 100%);
+    background: linear-gradient(292deg, #0F9400 -6.26%, #15ABA9 64.4%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .main {
     position: relative;
+    background-color: #fff;
 }
 
 .unternehmen {
@@ -504,7 +514,7 @@ h2 {
 }
 
 .footer {
-    background: linear-gradient(180deg, rgba(218, 221, 225, 1) 0%, rgba(202, 218, 222, 1) 27%, rgba(137, 205, 208, 1) 100%);
+    background: linear-gradient(180deg, #DADDE1 0%, #CADADE 74.48%, #89CDD0 278.76%);
     padding-top: 60px;
     padding-bottom: 60px;
 }
